@@ -1,0 +1,18 @@
+import nltk
+#nltk.download('stopwords')
+#nltk.download('punkt')
+def tokens(i,o):
+	tokens={}
+	inF = open(i,"r").read()
+	outF = open (o,"w")
+	tk = nltk.tokenize.punkt.PunktSentenceTokenizer()
+	count=1;
+	StopWords = nltk.corpus.stopwords.words("english")
+	for token in tk.tokenize(inF):      
+		tokens[count]=token
+		count+=1
+	outF.write(str(tokens))
+	for x,y in tokens.items():
+		print(x,' ',y)
+	outF.close()
+

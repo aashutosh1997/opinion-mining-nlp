@@ -1,0 +1,148 @@
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('wordnet')
+nltk.download('sentiwordnet')
+import ast
+import re
+from nltk.tokenize import word_tokenize
+from nltk.corpus import wordnet
+from nltk.corpus import sentiwordnet
+
+def pPro(i,o):
+	inF = open(i,"r").read()
+	outF=open (o,"w+")
+	SW = nltk.corpus.stopwords.words("english")
+	outData=(' '.join([x for x in inF.split() if x not in SW]))
+	print('\nThe standard Stop Words are:\n')
+	print(SW)
+	print('\nThe dataset after pre-processing\n')
+	print(str(outData))
+	outF.write(str(outData))
+	outF.close()
+
+def tokens(i,o):
+	tokens={}
+	inF = open(i,"r").read()
+	outF = open (o,"w")
+	tk = nltk.tokenize.punkt.PunktSentenceTokenizer()
+	count=1;
+	StopWords = nltk.corpus.stopwords.words("english")
+	for token in tk.tokenize(inF):      
+		tokens[count]=token
+		count+=1
+	outF.write(str(tokens))
+	for x,y in tokens.items():
+		print(x,' ',y)
+	outF.close()
+
+def classify(i,o):
+	inF = open(i,"r").read()
+	outF=open (o,"w")
+	words=ast.literal_eval(inF)
+	outData={}
+	for key,value in words.items():
+		outData[key]=nltk.pos_tag(nltk.word_tokenize(value))
+	for x,y in outData.items():
+		print(x,' ',y)
+	outF.write(str(outData))
+	outF.close()
+
+def extractAsp(i,o):
+	inF = open(i,"r").read()
+	outF=open (o,"w")
+	words=ast.literal_eval(inF)
+	prevWord=''
+	prevPos=''
+	currWord=''
+	aspects=[]
+	Dict={}
+	#Extracting Aspects
+	for x,y in words.items():
+		for word,pos in y:
+			if(pos=='NN' or pos=='NNP'):
+				if(prevPos=='NN' or prevPos=='NNP'):
+					currWord= prevWord + ' ' + word
+				else:
+					aspects.append(prevWord.upper())
+					currWord= word
+			prevWord=currWord
+			prevPos=pos
+    #Eliminating aspect which has 1 or less count
+	for z in aspects:
+		if(aspects.count(z)>1):
+			if(Dict.keys()!=z):
+				Dict[z]=aspects.count(z)
+	outputData=sorted(Dict.items(), key=lambda n: n[1],reverse = True)
+	print(outputData)
+	outF.write(str(outputData))
+	outF.close()
+
+def identifyOpinionWords(iR, iA, o):       
+	inRev = open(iR,"r").read()
+	inAsp = open(iA,"r").read()
+	outAsp=open (o,"w")
+	inputReviewsTuples=ast.literal_eval(inRev)
+	inputAspectTuples=ast.literal_eval(inAsp)
+	outputAspectOpinionTuples={}
+	orientationCache={}
+	negativeWordSet = {"don't", "never", "nothing", "nowhere", "noone", "none", "not", "hasn't", "hadn't", "can't", "couldn't", "shouldn't", "won't", "wouldn't", "don't", "doesn't", "didn't", "isn't", "aren't", "ain't"}
+	print("Aspect\t\t\t\tPositive\tNegative")
+	for aspect,no in inputAspectTuples:
+		aspectTokens= word_tokenize(aspect)
+		count=0
+		for key,value in inputReviewsTuples.items():
+			condition=True
+			isNegativeSen=False
+			for subWord in aspectTokens:
+				if(subWord in str(value).upper()):
+					condition = condition and True
+				else:
+					condition = False
+					break
+			if(condition):
+				for negWord in negativeWordSet:
+					if(not isNegativeSen):
+#once senetence is negative no need to check this condition again and again
+						if negWord.upper() in str(value).upper():
+							isNegativeSen=isNegativeSen or True
+				outputAspectOpinionTuples.setdefault(aspect,[0,0,0])
+				for word,tag in value:
+					if(tag=='JJ' or tag=='JJR' or tag=='JJS'or tag== 'RB' or tag== 'RBR'or tag== 'RBS'):
+						count+=1
+						if(word not in orientationCache):
+							orien=orientation(word)
+							orientationCache[word]=orien
+						else:
+							orien=orientationCache[word]
+						if(isNegativeSen and orien is not None):
+							orien= not orien
+						if(orien==True):
+							outputAspectOpinionTuples[aspect][0]+=1
+						elif(orien==False):
+							outputAspectOpinionTuples[aspect][1]+=1
+						elif(orien is None):
+							outputAspectOpinionTuples[aspect][2]+=1
+		if(count>0):
+			outputAspectOpinionTuples[aspect][0]=round((float(outputAspectOpinionTuples[aspect][0])/float(count))*100,2)
+			outputAspectOpinionTuples[aspect][1]=round((float(outputAspectOpinionTuples[aspect][1])/float(count))*100,2)
+			outputAspectOpinionTuples[aspect][2]=round((float(outputAspectOpinionTuples[aspect][2])/float(count))*100,2)
+			T="\t\t\t\t"
+			if len(str(aspect))>7 and len(str(aspect))<=15:
+				T="\t\t\t"
+			elif len(str(aspect))>15:
+				T="\t\t"
+			print(str(aspect)+T+str(outputAspectOpinionTuples[aspect][0])+"\t\t"+str(outputAspectOpinionTuples[aspect][1]))
+	outAsp.write(str(outputAspectOpinionTuples))
+	outAsp.close();
+
+def orientation(inputWord): 
+	wordSynset=wordnet.synsets(inputWord)
+	if(len(wordSynset) != 0):
+		word=wordSynset[0].name()
+		orientation=sentiwordnet.senti_synset(word)
+		if(orientation.pos_score()>orientation.neg_score()):
+			return True
+		elif(orientation.pos_score()<orientation.neg_score()):
+			return False

@@ -1,0 +1,28 @@
+import Functions
+
+_Folder='Data/Example1/'
+_Dataset=_Folder+'Dataset.txt'
+_PreProcess=_Folder+'PreProcess.txt'
+_Tokenize=_Folder+'Tokenize.txt'
+_Pos=_Folder+'Pos.txt'
+_Aspects=_Folder+'Aspects.txt'
+_Opinions=_Folder+'Opinions.txt'
+ 
+print("\t\tWELCOME TO OPINION MINING SYSTEM  ")
+n=0
+while n!=6:
+	n=int(input('List of functions:\n\t1. Preprocess Data\n\t2. Tokenization\n\t3. Tag Parts of speech\n\t4. List of Aspects\n\t5. Opinion Words\n\t6. Exit\n\tChoice: '))
+	if n==1:
+		Functions.preProcessing(_Dataset,_PreProcess,True)
+	elif n==2:
+		Functions.tokenizeReviews(_Dataset,_Tokenize,True)
+	elif n==3:
+		Functions.posTagging(_Tokenize,_Pos,True)
+	elif n==4:
+		Functions.aspectExtraction(_Pos,_Aspects,True)
+	elif n==5:
+		Functions.identifyOpinionWords(_Pos,_Aspects,_Opinions,True)
+	elif n==6:
+		continue
+	else:
+		print('Invalid option!! Try Again.)

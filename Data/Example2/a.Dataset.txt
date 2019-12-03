@@ -1,0 +1,137 @@
+The Google Pixel 2 and Pixel 2 XL are anything but conformists. Unlike with other flagship phones, you won't find dual-lens cameras or edge-to-edge screens on these handsets.
+
+Instead, Google focused on making these the smartest phones ever. And based on my testing over several days, the new Pixels aptly fit that description, with a versatile Google Assistant you can now summon with a squeeze and a new object-recognition feature in the camera app that's truly impressive.
+
+Available either through Verizon or unlocked, the Pixel 2 (from $649) and Pixel 2 XL ($849) also offer top-notch performance and battery life, as well as excellent photo quality. Other one-of-a-kind smart features are on the way, including Pixel Buds headphones you can use as a universal translator. However, the designs of these pure Android Oreo phones are anything but sweet, and we wish carriers other than Verizon sold these sequels directly.
+
+"Send it back — it still needs more bezel!" That’s how I imagine the insane conversation about the regular Pixel 2 took place at Google's headquarters. At a time when other phones are stretching their screens to reach practically from one corner to the other, the front of the Pixel 2 is a throwback in the worst possible sense of the word.
+
+    Seeing the Pixel 2’s gorgeous 5-inch OLED screen sandwiched between such large blocks of black glass is downright offensive.
+
+I measured the top and bottom bezels at over 0.6 inches, compared to 0.2 inches for the Galaxy S8. Seeing that gorgeous 5-inch OLED screen sandwiched between such large blocks of black glass is downright offensive.
+
+It's not all bad news, though, as the two front-firing stereo speakers get nice and loud, offering richer audio than the speaker on the bottom edge of the Galaxy S8. Plus, if you're adamant that a phone be easy to use with one hand, you'll prefer the Pixel 2's more-compact dimensions of 5.7 x 2.7 x 0.3 inches, versus 6.2 x 3 x 0.3 inches for the Pixel 2 XL. The Pixel 2 weighs a fairly light 5 ounces, compared to 6.2 ounces for the Pixel 2 XL.
+
+The Pixel 2 XL also has a much more modern vibe, as its 6-inch display covers much more of the phone's face. The top and bottom bezels measure a more eye-pleasing 0.4 inches and 0.35 inches thick, respectively. This handset also sports stereo speakers above and below the screen.
+
+Around back, you'll find Google’s trademark two-tone design on both phones, with a stripe of black glass across the top around the camera and flash, and sturdy aluminum covering the bottom three-quarters of the phones. The fingerprint sensor is positioned right in the center, beneath the stripe, making it easy to reach.
+
+Google offers a range of colors for the Pixel 2, including Just Black, Clearly White, Black and White (which reminds us of the cookie), and Kinda Blue. The Pixel 2 XL comes in Just Black and Black and White.
+
+Unfortunately, neither the Pixel 2 nor the Pixel 2 XL features a headphone jack. Google includes a USB-C dongle in the box, but you're probably better off just going wireless.
+
+When I first heard about Active Edge on the Pixel 2 and Pixel 2 XL, I thought it was a gimmick. But after using it just for a few minutes, I changed my mind. With a firm, quick squeeze toward the bottom of the phone, you can activate Google Assistant, which is faster and more accurate and versatile than Siri.
+
+    With the Assistant just a squeeze away, I had no problem finding out how the Yankees were doing against the Astros (not great), telling the Pixel 2 to snap a selfie or seeing the photos I took that day.
+
+For instance, I said, "Play BoJack Horseman on my living room TV," and Google Assistant on the Pixel 2 launched the Netflix app right to this deranged cartoon on my big screen. Of course, it helps that I had a Chromecast plugged in to the set, but that's exactly Google's plan: to show you how its hardware and software work well together across its growing ecosystem of products. The Google-owned Nest thermostat also works with Google Assistant, so you could say, "Set the temperature to 68 degrees."
+
+With the Assistant just a squeeze away, I had no problem finding out how the Yankees were doing against the Astros (not great), telling the Pixel 2 to snap a selfie, summoning up all the photos I took that day, or firing up my Liked from Radio Playlist on Spotify. Sure, I could do all of this by saying, "OK, Google," first, but I found it more convenient and less awkward to use Active Edge.
+
+You can also adjust the sensitivity level of the squeeze required and allow the Active Edge feature to work when the screen is off. I rarely activated the Assistant by accident.
+Display: Always-on but Pixel 2 XL has issues
+
+While Apple charges $999 for the privilege of owning a colorful OLED display and enjoying its wide viewing angles and perfect blacks on the iPhone X, and while the OLED Galaxy S8 starts at $750, you can get this screen tech on the Pixel 2 for $649
+
+The Pixel 2's 5-inch screen isn't the sharpest, at 1920 x 1080 pixels, and it's much smaller than the 5.8-inch Galaxy S8, but it produced an excellent 148 percent of the sRGB color gamut. When I watched the Star Wars: The Last Jedi trailer on the Pixel 2's display, the golden orange around the insanely cute porg's eyes popped against its white fur, and the reflection of two clashing weapons in Captain Phasma's gleaming, silver helmet looked gorgeous.
+
+The Pixel 2 XL's 6-inch screen sports a sharper, 2880 x 1440-pixel resolution. This panel registered a slightly lower 130 percent of the color gamut, but its colors are just about as accurate on paper. The Pixel 2 XL's display scored 0.26 on the Delta-E error test (0 is perfect), and the Pixel 2 hit 0.29.
+
+However, the Pixel 2 XL's screen has some issues. After seeing reports of color shifting off axis and other problems, we did a more in-depth comparison with other phone screens. Unfortunately, we found that there is a blue tint present on the Pixel 2 XL's panel at off-angles and that there is some graininess when viewing solid colored backgrounds. A user setting lets you boost colors to make them more vivid, but it's limited; Google says that a coming software update will let you further boost the screen's colors.
+
+The Pixel 2 XL is also reportedly suffering from burn-in issues, with the icons at the bottom of the display staying on the screen even when they're not supposed to be present. We have not noticed this issue ourselves, but it's still concerning. Again, Google promises a software update that it will claims will optimize a feature aimed at maximizing the life of the Pixel's display. And it's extending the warranty on its Pixel phones to two years.
+
+The Pixel 2 XL is the phone you want to have outdoors, as it registered a higher 438 nits on our light meter, compared to just 346 nits on the Pixel 2. The Galaxy S8 notched 437 nits. The smartphone category average is 433.
+
+Similar to the Galaxy S8 and Note 8, the Pixel 2 and Pixel 2 XL offer always-on displays, which show you the time and notifications at a glance. But the new Pixels go even further, with a Now Playing feature that can recognize music playing in the background and automatically display the title and artist.
+
+From there, you can double tap the track to learn more about the song or to play it. It sometimes took 30 seconds or more for Now Playing to kick in, but it's not designed to replace Shazam; it's more about serendipitous discovery.
+
+
+While the cameras on the Pixel 2 and Pixel 2 XL take great-looking images, that's not what really makes the photo experience stand out. That would be Google Lens, an object-detection feature in the Camera and in Google Photos app.
+
+With Google Lens, the Pixel 2 can recognize landmarks with ease, such as the Flatiron Building in New York City. I just snapped a photo, then tapped on the lens icon on the bottom of the screen; Google Assistant then displayed an information card on the building with info from Wikipedia.
+
+I had mixed results when taking pictures of businesses. After I took a shot of the neon sign for Gleason's Tavern, Google Assistant gave the the star rating and a brief description of the establishment, along with its hours of operation. But Google Lens didn't recognize the sign for Dough, which is a premium donut shop.
+
+Google Lens worked pretty well on a business card; the phone easily picked up the email address of the contact and his phone number. Last but not least, I tried photographing a Spider-Man Homecoming movie poster, and the phone returned a synopsis and rating from Rotten Tomatoes.
+
+    Google Lens can recognize everything from landmarks and restaurants to movie posters and even phone numbers on signs.
+
+Google Lens will be coming to other Android phones later, but for now at least, it's a Pixel exclusive.
+
+There's one other camera feature that's coming that I did not have a chance to test, which is AR stickers. With this perk, you'll be able to insert characters from franchises like Stranger Things and Star Wars right into your images.
+Cameras and Image Quality: Great, but no iPhone 8 killer
+
+Considering the Pixel 2 and Pixel 2 XL sport single rear 12-megapixel cameras, you might think that they're snapping pics with one arm tied around their backs compared to dual-lens camera phones. Nope. They aren't, and that's because these phones are smart enough to offer a Portrait mode (bokeh effect) through software that works even on the phones' front 8-MP camera.
+
+    In terms of overall image quality, the Pixel 2 and Pixel 2 XL give the best camera phone, the iPhone 8 Plus, a run for its money.
+
+In one portrait I took of my colleague Cortney with the Pixel 2, the New York City skyline blurred into the background, but not too much — just enough for her red-orange hair, blue shirt and green jacket to pop. As I zoomed in, though, I noticed that one part of a building behind her didn't have the blur effect. It's too bad that you can't preview Portrait Mode results in real time, as you can with the iPhone 8 and Galaxy Note 8; the bokeh effect is applied after you take the shot.
+
+In terms of overall image quality, the Pixel 2 and Pixel 2 Plus give the best camera phone, the iPhone 8 Plus, a run for its money. But they don't surpass it.
+
+In this shot of the Flatiron Building, the Pixel 2's HDR+ setting brought out more details in the shadows than the iPhone 8 Plus did. The iPhone's image has a bit better contrast, but overall, the Pixel 2's image is the one I would share on Facebook or Instagram.
+
+The iPhone 8 Plus pulled ahead with this shot of an outdoor art piece. The iPhone 8 Plus delivered a brighter image with more vibrant oranges, blues, purples and pinks.
+
+Indoors, at the Lego store, it was a toss-up between the Pixel 2 and iPhone 8 Plus. The image of a Lego man in a top hat captured by Google's phone delivered more-realistic hues, while Apple's camera delivered a brighter image.
+
+The iPhone 8 Plus won on this close-up of a lantana flower. The image turned out brighter than the Pixel 2 XL's shot, making it easier to tell that the sun was shining, although I could make out a great amount of detail in the leaves on both photos.
+
+If you're an Android fan and you've been jealous of Apple's Live Photos, you'll get a kick out of the Motion photos feature on the Pixel 2 and Pixel 2 Plus. It captures a few seconds of video with each image and plays it back with a loop-like effect, as I noticed in one shot I took that had moving cars in the foreground.
+
+With the same Snapdragon 835 processor as the Galaxy S8 and the same 4GB of RAM as the Galaxy S8 and S8+, the Pixel 2 and Pixel 2 XL might be expected to offer the same performance. Actually, they're faster in real-world tasks.
+
+On our video-editing test, in which we transcode a 2-minute 4K video clip to 1080p in the Adobe Clips app, the Pixel 2 took 2 minutes and 55 seconds, compared to 4:07 for the Galaxy S8. The Galaxy Note 8 took 3:03, and that phone packs 6GB of RAM. The Pixel 2 still wasn't nearly as fast as the iPhone 8 and its A11 Bionic chip, which needed 42 seconds.
+
+Next, we opened up a 5.1 MB PDF file. The Pixel 2 took just 2 seconds, compared to nearly 6.41 seconds for the Galaxy Note 8. The iPhone 8 took 0.74 seconds.
+
+The Pixel 2 didn't fare as well on synthetic benchmarks. On Geekbench 4, which measures overall performance, the Pixel 2 notched 6,282. That's a little bit behind the Galaxy S8's score (6,295) and well short of the Galaxy Note 8's showing (6,564). The iPhone 8 was in another league, at 10,170.
+
+When performing everyday tasks, like running two apps side by side in split-screen mode, the Pixel 2 felt snappy and responsive. I played the demanding Warhammer 40,000: Freeblade game — busting up tanks with my mech — without any lag.
+Battery Life: Excellent
+
+Both the Pixel 2 and Pixel 2 XL beat their Apple and Samsung foes in endurance. On the Tom's Guide Battery Test, which involves continuous web surfing over 4G LTE (in this case on Verizon), the Pixel 2 lasted a strong 11 hours and 7 minutes. The Pixel 2 XL lasted about an hour longer, at 12:09.
+
+These runtimes far surpass the 9:40 smartphone average, and they beat the respective times of the iPhone 8 (9:54) and iPhone 8 Plus (11:16) and the Galaxy S8 (10:39) and Galaxy S8+ (11:04).
+
+    Both the Pixel 2 and Pixel 2 XL beat their Apple and Samsung foes in endurance.
+
+The Pixel 2 XL easily makes our list of the longest-lasting phones. Plus, you can expect even longer battery life should you choose T-Mobile for your Pixel 2 or Pixel 2 XL, as we've found that phones tend to last longer on that network.
+
+MORE: Smartphones with the Longest Battery Life
+
+One bummer, though, is that neither the Pixel 2 nor the Pixel 2 XL supports wireless charging. You'll need to plug in a USB-C cable if you want juice. Google claims that you'll get up to 7 hours of power in just 15 minutes. On our tests, we saw the Pixel 2 get up to 19 percent capacity in just 10 minutes, reaching 39 percent by the 30-minute mark.
+Android Oreo: Minor (but welcome) upgrades
+
+It's no surprise that Google's own phones are the first to ship with the new Android Oreo software installed. The updated OS doesn't offer dramatic improvements, but there are some worthwhile new features.
+
+The new picture-in-picture mode isn't one of them. Although you can already run two apps side by side, picture-in-picture lets you exit an app and still see a floating window of one of the supported apps, such as YouTube and Google Maps. In the case of YouTube, you need to be signed up for YouTube Red ($9.99 per month) for this feature to work. I was able to easily drag a small window of the playback window around the screen as I worked in another app, but I just didn't see it as very practical.
+
+I found the app shortcuts feature, which is similar to the 3D Touch feature on iOS, more useful. You long press an app icon to activate various shortcuts without having to open the app; for instance, you can long press the Phone app to quickly dial one of your top three contacts, or long press the Camera app to Take a video or Take a selfie.
+
+Similarly helpful are the notification dots. When you log press an icon that has a dot on the upper right corner, you'll see the waiting notification without having to open the app. This came in handy for the Gmail app.
+
+With Google's new ARCore initiative, compelling augmented reality apps will be making their way to certain Android Oreo phones, such as the Galaxy S8. The apps will be hitting the Google Play store this winter.
+
+Oreo has lots of other features, including ones under the hood to optimize performance and battery life, as well as to enable stronger security. See our full Android Oreo review along with a look at the top 21 Oreo features.
+
+With a lot of phones, the accessories are an afterthought, but not with the Pixel 2 and Pixel 2 XL. The new Pixel Buds ($159) are wireless headphones that let you carry on a conversation with someone else in their native language. Leveraging Google Translate and Google Assistant, these headphones help you say phrases in any one of 40 languages, and your Pixel 2 will utter that phrase aloud so that the person you're speaking with can understand you.
+
+Google Pixel Buds. Credit: Google
+Google Pixel Buds. Credit: GoogleI did not have an opportunity to test out the Pixel Buds yet, but I look forward to it.
+
+MORE: Google Could Finally Overtake Apple with AI Hardware Like This
+
+Another new accessory on the way is Google Clips, a pricier $249 camera that you can attach to pretty much anything to record video of loved ones, allowing you to keep your hands free. Because it uses machine learning, the Clips camera not only knows when there's a person in the frame to take a shot, but it can also learn who your friends and family members are over time.
+
+If you're looking to get into virtual reality, there's also a new version of the Google Daydream View headset ($99), which offers improved comfort and optics with a wider sweet spot for content and increased resolution.
+Bottom Line
+
+With the Pixel 2 and Pixel 2 XL, it's clear that Google has chosen AI as its weapon of choice to fight the smartphone war. And given the company's prowess in machine learning, this is a smart move that has paid off. I found myself using Google Assistant a lot more in just a few days than I do Siri in a whole month with the iPhone, and not just because I was testing the new Pixels. Google Assistant understood me even when I didn't utter the exact right words, and I loved being able to summon it with just a squeeze.
+
+
+If you own other Google gear, such as the Google Home Mini (which you can get for free right now when you order the Pixel 2) or Chromecast, the Assistant's powers multiply. In a way, Google is starting to pull away from other Android phone makers, because the company is creating its own Apple-like walled garden. It's a more purposeful fragmentation.
+
+The Pixel 2 and Pixel 2 XL also benefit from faster performance than the Galaxy S8, stellar front and back cameras and long battery life. Overall, I prefer the sleeker designs and curved edge-to-edge displays on the Galaxy S8 and Galaxy S8+, and the iPhone 8 Plus remains the king of camera phones. But if you want a pure Android experience, you'll love the $849 Pixel 2 XL. The Pixel 2's bezels are just way too big and it's screen too small for me to take this phone seriously, even for its relatively low $649.

@@ -1,0 +1,15 @@
+import nltk
+nltk.download('wordnet')
+nltk.download('sentiwordnet')
+from nltk.corpus import wordnet
+from nltk.corpus import sentiwordnet
+def orientation(inputWord): 
+    wordSynset=wordnet.synsets(inputWord)
+    if(len(wordSynset) != 0):
+        word=wordSynset[0].name()
+        orientation=sentiwordnet.senti_synset(word)
+        if(orientation.pos_score()>orientation.neg_score()):
+            return True
+        elif(orientation.pos_score()<orientation.neg_score()):
+            return False
+	
